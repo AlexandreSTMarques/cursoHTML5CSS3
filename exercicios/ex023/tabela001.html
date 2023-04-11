@@ -7,47 +7,34 @@
     <title>Tabelas</title>
     <style>
         body{
-            background-image: linear-gradient( to bottom,lightgreen,green,darkgreen);
+           
             font-family: Arial, Helvetica, sans-serif;
         }
         table{
+            height: 400px;
             width: 400px;
             border-collapse: collapse;
             
         }
         tr.linha{
-            background-color: lightgray;
+            
         }
         td{
             border:1px solid black ;
             padding:8px ;
+            text-align: center;
         }
         td.dado{
-            background-color: red   ;
+               
         }
-        table.cor{
-            width:400px;
-            height: 10px;
-            
-            margin-top: 20px;
-            
-            
+        .numeros{
+            text-align: right;
 
         }
-        td.diferente{
-            background-image: linear-gradient( to right, red, orange, yellow);
-            color: blue;
-            text-decoration: solid;
-            border-color: black;
-            padding-left: 20px;
 
-
-        }
-        tr.volume{
-            border-collapse:collapse;
-            border: 2px solid lightgreen;
-            
-        }
+        
+        
+        
 
     </style>
 </head>
@@ -62,13 +49,13 @@
         <tr class="linha">
             <td>A2</td>
             <td class="dado">B2</td>
-            <td>C2</td>
+            <td class="numeros">C2</td>
 
         </tr>
         <tr>
             <td>A3</td>
             <td>B3</td>
-            <td>C3</td>
+            <td class="numeros">C3</td>
         </tr>
         <tr>
             <td>A4</td>
@@ -76,15 +63,6 @@
             <td>C4</td>
         </tr>
     </table>
-    <table class="cor">
-        <tr class="volume">
-            <td class="diferente">1</td>
-            <td>2</td>
-            <td class="diferente">3</td>
-            <td>4</td>
-           
-        </tr>
-    </table>
-    
+   
 </body>
 </html>
