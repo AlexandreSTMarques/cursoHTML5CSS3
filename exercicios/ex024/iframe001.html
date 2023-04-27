@@ -5,24 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudos de iframe</title>
+    <style>
+        iframe{
+            border:5px double blueviolet
+        }
+    </style>
 </head>
 <body>
     <h1> Testando o uso de um iframe</h1>
     <p>Acessando o site do 
-        <iframe src="https://www.cursoemvideo.com" frameborder="0"></iframe>
+        <iframe src="https://www.cursoemvideo.com" frameborder="0" height="500" width="500"> <!-- aqui, colocamos os  parâmetros height e width com 500 cada no iframe.-->
+
+            No<a href="https://www.cursoemvideo.com" target="
+            _blank">cursoemvideo</a>
+
+
+        </iframe>
         <!-- sempre procurar fazer o uso de iframe com moderação !-->
        
-        <!-- O iframe não irá funcionar em todos o sites por exemplo, o google tem proteção contra o uso de iframe.-->
+        <!-- O iframe não irá funcionar em todos o sites. O google por exemplo, tem proteção contra o uso de iframe.-->
         
         
         
         
         para aprender a Programar </p>
 
-        <p> O site do
-            
-            <iframe src="https://www.google.com.br" frameborder="0">  
+        <p> conheça o site da banda
+            <!-- Tamanho padrão do iframe 300x150-->
+            <iframe src="https://alexandrestmarques.github.io/site-inviso/" frameborder="0" height="500" width="500"> <!--aqui usamos os parâmetros height e width com 500 cada no iframe.-->
+                
+               site da banda <a href="https://alexandrestmarques.github.io/site-inviso/" target="_blank"> inviso</a>
 
-            </iframe>tem proteção contra iframe por isso não funciona.</p>
+            </iframe></p>
 </body>
 </html>
