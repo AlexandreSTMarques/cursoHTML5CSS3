@@ -19,16 +19,35 @@ header{
     background-color: #1f9870;
    color:  azure;
    padding: 10px;
+   display: flex;  /*aqui estão as configurações flexbox*/     
+   flex-flow: row wrap;
+   justify-content: space-between;
+   align-items: center;
 }
  header > h1{
     border: 1px dotted black;
+    flex: 0 0 200px;    /*Aqui ta,bém há uma configuração de flexbox( row 0, swrink 0  e flex-basis 200px*/
  }
  header > nav{
     border: 1px dotted black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: end;
     
  }
- a{
+ header> nav > a{
     color: lightgreen;  /* modifiquei só aqui*/
+    background-color: rgba(0, 0, 0, 0.645);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+ }
+ header > nav a:hover{
+   background-color: lightgreen;
+   color: green;
+   transition: background-color .5s;
  }
  main{
     background-color:#2CC3E8;
