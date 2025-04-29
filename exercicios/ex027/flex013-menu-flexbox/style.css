@@ -25,11 +25,12 @@ header{
    align-items: center;
 }
  header > h1{
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
     flex: 0 0 200px;    /*Aqui ta,bém há uma configuração de flexbox( row 0, swrink 0  e flex-basis 200px*/
+    text-shadow: 2px 2px 0px black;
  }
  header > nav{
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
     display: flex;
     flex-flow: row wrap;
     justify-content: end;
