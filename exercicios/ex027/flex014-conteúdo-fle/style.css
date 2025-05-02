@@ -9,6 +9,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     line-height: 1.5em;
+    background-color: antiquewhite;
 
     
 }
@@ -19,6 +20,7 @@ h1 ,h2 {
 }
 p  {
     margin-bottom: 10px;
+    
     text-align: justify;
 }
 header, section.normal{
@@ -35,12 +37,17 @@ article.text-media{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    color:#FCB526  ;
+}
+article > div > h2 {
+    color:#FC7E26  ;
 }
 
 article.media-text{
     display: flex;
     flex-flow: row wrap-reverse;
     justify-content: space-between;
+    color:#FCB526  ;
 }
 article > div.text {
     flex: 1 1 500px;
